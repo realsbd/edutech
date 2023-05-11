@@ -1,13 +1,11 @@
-import { Content } from "./Content"
 import { Box } from "./Box";
 
-export const Layout = ({ children }) => (
+export const Layout = () => (
   <Box
     css={{
       maxW: "100%"
     }}
   >
-    {children}
-    <Content />
+    <h1>COntent</h1>
   </Box>
 );
